@@ -9,7 +9,7 @@ class Rational( x:Int , y:Int ) {
     }
 
 
-    val g = gcd( Math.abs(x) , y )
+    private val g = gcd( Math.abs(x) , y )
 
     val numer = x/g
 
